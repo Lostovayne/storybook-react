@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+## My Paquetón! 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este paquete proporciona un conjunto de componentes personalizados diseñados para ser utilizados con Storybook y Chromatic, permitiendo un desarrollo de UI más ágil y coherente.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para instalar los componentes de Epsa, ejecuta el siguiente comando en tu terminal:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm install @epsaind/epsa-custom-components
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Una vez instalado, puedes lanzar Storybook para ver y trabajar con los componentes:
+
+```bash
+npx storybook
+```
+
+## Documentación
+
+En la sección Documentación, encontrara la documentación de los componentes y como utilizarlos.
+
+Para ejecutar pruebas visuales con Chromatic:
+
+```bash
+npx chromatic
+```
+
+Y si deseas lanzar tanto Storybook como Chromatic, puedes utilizar:
+
+```bash
+npx storybook --chromatic
+```
+
+Características
+- Integración con Storybook para una experiencia de desarrollo interactiva.
+- Soporte para Chromatic para pruebas visuales automatizadas.
+- Componentes personalizados optimizados para rendimiento y accesibilidad.
+
+Licencia
+Este proyecto está licenciado bajo la Licencia MIT - vea el archivo LICENSE en el repositorio para más detalles.
+
+## Preguntas y Soporte
+
+Si tienes alguna pregunta o necesitas ayuda, no dudes en unirte a la comunidad en Discord o ver tutoriales en YouTube.
