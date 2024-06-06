@@ -27,6 +27,12 @@ interface Props {
    */
 
   fontColor?: string;
+
+  /**
+   * Background color of the component
+   */
+
+  backgroundColor?: string;
 }
 
 const MyLabel = ({
@@ -35,6 +41,7 @@ const MyLabel = ({
   allCaps = false,
   color,
   fontColor,
+  backgroundColor = "transparent",
 }: Props): JSX.Element => {
   return (
     <span
@@ -42,6 +49,7 @@ const MyLabel = ({
       style={{
         textTransform: allCaps ? "uppercase" : "none",
         color: fontColor,
+        backgroundColor,
       }}
     >
       {label}
