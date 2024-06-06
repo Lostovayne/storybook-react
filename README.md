@@ -1,4 +1,4 @@
-## My Paquetón! 
+## Paquete de componentes personalizados! 
 
 Este paquete proporciona un conjunto de componentes personalizados diseñados para ser utilizados con Storybook y Chromatic, permitiendo un desarrollo de UI más ágil y coherente.
 
