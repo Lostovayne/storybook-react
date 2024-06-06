@@ -46,7 +46,8 @@
     "chromatic": "npx chromatic --project-token=chpt_41212f95858e66d",
     "clean": "rimraf dist/",
     "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
-    "push:npm": "np"
+    "push:npm": "np",
+    "test": "echo 'No test specified'"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.5.0",
